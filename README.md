@@ -54,7 +54,9 @@ alternating current 交流电
 
 例题：
 
-$$i=\left\{\begin{matrix}2\text{A},0<t<1\text{s}\\2t^2\text{A}, t>1\text{s}\end{matrix} \right$$
+$$
+i=\begin{cases}  2\text{A},0 < t < 1 \text{s} \\\ 2t^2\text{A}, t>1\text{s} \end{cases}
+$$ 
 
 求 0-2s charge entering the element.
 
@@ -109,7 +111,9 @@ Solution:
 $p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\ =50\cos^2 60 \pi t = 50\cos^2 (60\pi\times 5\times 10^{-3} ) \\ \approx 17.27 \, (\text{W})$
 
 (b) The power delivered to the element is 29.70W:
-$\begin{align*}v&=\left( 10+5\int_0^t i\,dt \right)=10+5\int_0^t 5\cos 60 \pi t\\ &=10+\frac{5}{12}\sin 60 \pi t\Big|_0^t=10+\frac{5}{12\pi}\sin 60 \pi t\\ &= 10+\frac{5}{12\pi}\sin (60\pi\times0.005)\approx 10.1073 \,(\text{V})\\ i&=5 \cos (60\pi t)=5\cos(60\pi\times0.005)\\ &\approx 2.9389\,(\text{A})\\ p&=vi=10.1073\times 2.9389\approx 29.70\,(\text{W})\end{align*}$
+$$
+\begin{align*}v&=\left( 10+5\int_0^t i\,dt \right)=10+5\int_0^t 5\cos 60 \pi t\\\ &=10+\frac{5}{12}\sin 60 \pi t\Big|_0^t=10+\frac{5}{12\pi}\sin 60 \pi t\\\ &= 10+\frac{5}{12\pi}\sin (60\pi\times0.005)\approx 10.1073 \,(\text{V})\\\ i&=5 \cos (60\pi t)=5\cos(60\pi\times0.005)\\\ &\approx 2.9389\,(\text{A})\\\ p&=vi=10.1073\times 2.9389\approx 29.70\,(\text{W})\end{align*}
+$$
 
 ### Circuit Elements 电子元件
 Two type:
@@ -137,7 +141,7 @@ eg. op-amp 运算放大器，transformers 变压器，transistors 晶体管
     - **V** C **C** S (压控电流源)
     - **C** C **C** S (流控电流源)
     - symbol: ![dependent souces](dependent_sources.png)
-    - example: a CCVS: 菱形表示受控，$+-$表示电压源，10 $i$ 表示其两端电压数值大小(V)为流过中路元件的电流 ($i$) 数值的10倍(A) ![example: CCVS](example_CCVS.png)
+    - example: a CCVS: 菱形表示受控，$+-$ 表示电压源，10 $i$ 表示其两端电压数值大小(V)为流过中路元件的电流 ($i$) 数值的10倍(A) ![example: CCVS](example_CCVS.png)
 
 ## Chapter 2: Basic Laws
 
