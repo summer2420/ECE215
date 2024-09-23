@@ -8,7 +8,7 @@
  电子 | electron | e
  质子 | proton | p
  中子 | neutron|  n 
- |
+ | | |
  用电<br>元件 | passive elements <br> (被灌电) | $p>0$ <br> $+vi$ | PSC, 状态
 供电<br>元件 | active elements <br> (给电) | $p<0$ <br> $-vi$ | PSC, 状态
 无源<br>元件 | passive element model<br>physical devices | cannot gen elec energy | eg. 阻容感
