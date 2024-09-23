@@ -36,7 +36,7 @@ Charge:
 of the atomic particles of which matter consists
 - Coulomb = Ampere $\times$ Second
 - $1$ electron = $1.602\times 10^{-19}$ C
-- $1$ C = $6.24\times 10 ^{18} $ electrons
+- $1$ C = $6.24\times 10 ^{18}$ electrons
 - Law of conservation of charge 电荷守恒定律
 
 电荷和电流的关系：
@@ -62,7 +62,7 @@ $$
 
 Solution:
 
-$Q=\int_0^2i\,dt=\int_0^1 i\,dt+\int_1^2 i\,dt=2t\big|_0^1+2\frac{t^3}{3}\Big|_1^2=2+\frac{14}{3}\approx 6.667$ (C)
+$Q=\int_0^2i \\, dt=\int_0^1 i\\,dt+\int_1^2 i\\,dt=2t\big|_0^1+2\frac{t^3}{3}\Big|_1^2=2+\frac{14}{3}\approx 6.667$ (C)
 
 直接利用公式代入求解即可
 
@@ -97,22 +97,22 @@ According to the conservation of energy, $\sum p = 0$.
 
 Energy:
 - the capacity to do work, measured in joules (J)
-- Energy absorbed: $w = \int_{t_0}^t p\,dt = \int_{t_0}^t vi\,dt$
+- Energy absorbed: $w = \int_{t_0}^t p\\,dt = \int_{t_0}^t vi\\,dt$
 
 例题：
 
 Find the power delivered to an element at $t=5$ ms if the current entering its positive terminal is $i=5\cos60\pi t$ A and the voltage is:<br>
 (a) $v=2i$ V. <br>
-(b) $v=\left( 10+5\int_0^t i\,dt \right)$ V.
+(b) $v=\left( 10+5\int_0^t i\\,dt \right)$ V.
 
 Solution:
 
 (a) The power delivered to the element is 17.27W:<br>
-$p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\ =50\cos^2 60 \pi t = 50\cos^2 (60\pi\times 5\times 10^{-3} ) \\ \approx 17.27 \, (\text{W})$
+$p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\ =50\cos^2 60 \pi t = 50\cos^2 (60\pi\times 5\times 10^{-3} ) \\ \approx 17.27 \\, (\text{W})$
 
 (b) The power delivered to the element is 29.70W:
 $$
-\begin{align*}v&=\left( 10+5\int_0^t i\,dt \right)=10+5\int_0^t 5\cos 60 \pi t\\\ &=10+\frac{5}{12}\sin 60 \pi t\Big|_0^t=10+\frac{5}{12\pi}\sin 60 \pi t\\\ &= 10+\frac{5}{12\pi}\sin (60\pi\times0.005)\approx 10.1073 \,(\text{V})\\\ i&=5 \cos (60\pi t)=5\cos(60\pi\times0.005)\\\ &\approx 2.9389\,(\text{A})\\\ p&=vi=10.1073\times 2.9389\approx 29.70\,(\text{W})\end{align*}
+\begin{align*}v&=\left( 10+5\int_0^t i\\,dt \right)=10+5\int_0^t 5\cos 60 \pi t\\\ &=10+\frac{5}{12}\sin 60 \pi t\Big|_0^t=10+\frac{5}{12\pi}\sin 60 \pi t\\\ &= 10+\frac{5}{12\pi}\sin (60\pi\times0.005)\approx 10.1073 \\,(\text{V})\\\ i&=5 \cos (60\pi t)=5\cos(60\pi\times0.005)\\\ &\approx 2.9389\\,(\text{A})\\\ p&=vi=10.1073\times 2.9389\approx 29.70\\,(\text{W})\end{align*}
 $$
 
 ### Circuit Elements 电子元件
@@ -141,7 +141,7 @@ eg. op-amp 运算放大器，transformers 变压器，transistors 晶体管
     - **V** C **C** S (压控电流源)
     - **C** C **C** S (流控电流源)
     - symbol: ![dependent souces](dependent_sources.png)
-    - example: a CCVS: 菱形表示受控，$+-$ 表示电压源，10 $i$ 表示其两端电压数值大小(V)为流过中路元件的电流 ($i$) 数值的10倍(A) ![example: CCVS](example_CCVS.png)
+    - example: a CCVS: 菱形表示受控， $+-$ 表示电压源，10 $i$ 表示其两端电压数值大小(V)为流过中路元件的电流 ($i$) 数值的10倍(A) ![example: CCVS](example_CCVS.png)
 
 ## Chapter 2: Basic Laws
 
