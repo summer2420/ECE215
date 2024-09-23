@@ -112,11 +112,13 @@ $p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\ =50\cos^2 60 \pi t = 50\cos^2 (60\pi\time
 
 (b)
 
-$$\begin{align*} v & =\left( 10+5\int_0^t i \, dt \right)=10+5\int_0^t 5\cos 60 \pi t \\\ 
+$$
+\begin{align*} v & =\left( 10+5\int_0^t i \, dt \right)=10+5\int_0^t 5\cos 60 \pi t \\\ 
 & =10+\frac{5}{12}\sin 60 \pi t\Big|_0^t=10+\frac{5}{12\pi}\sin 60 \pi t \\\ 
 & = 10+\frac{5}{12\pi}\sin (60\pi\times0.005)\approx 10.1073 \\,(\text{V}) \\\ 
 i & =5 \cos (60\pi t)=5\cos(60\pi\times0.005)\\\ &\approx 2.9389 \\, (\text{A}) \\\ 
-p & =vi=10.1073\times 2.9389\approx 29.70 \\, (\text{W}) \end{align*}$$
+p & =vi=10.1073\times 2.9389\approx 29.70 \\, (\text{W}) \end{align*}
+$$
 
 ### Circuit Elements 电子元件
 Two type:
