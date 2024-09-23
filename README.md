@@ -54,9 +54,10 @@ alternating current 交流电
 
 例题：
 
-\\[
-i=\begin{cases} 2\text{A}, 0<t<1\text{s}\\ 2t^2\text{A}, t>1\text{s} \end{cases}
-\\]
+$$
+i=\begin{cases}2\text{A},0<t<1\text{s}\\ 
+2t^2\text{A}, t>1\text{s}\end{cases}
+$$
 
 求 0-2s charge entering the element.
 
