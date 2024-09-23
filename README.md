@@ -106,7 +106,7 @@ Find the power delivered to an element at $t=5$ ms if the current entering its p
 Solution:
 
 (a) The power delivered to the element is 17.27W:<br>
-$p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\=50\cos^2 60 \pi t = 50\cos^2 (60\pi\times 5\times 10^{-3} ) \\ \approx 17.27 \, (\text{W})$
+$p=vi=2i^2=2\times(5\cos 60 \pi t)^2\\ =50\cos^2 60 \pi t = 50\cos^2 (60\pi\times 5\times 10^{-3} ) \\ \approx 17.27 \, (\text{W})$
 
 (b) The power delivered to the element is 29.70W:
 $
