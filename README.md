@@ -55,7 +55,7 @@ alternating current 交流电
 例题：
 
 $$
-i=\left{
+i=\left\{
 \begin{matrix}
 2\text{A},0<t<1\text{s}\\ 
 2t^2\text{A}, t>1\text{s}
