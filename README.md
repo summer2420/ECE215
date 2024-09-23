@@ -13,7 +13,7 @@
 供电<br>元件 | active elements <br> (给电) | $p<0$ <br> $-vi$ | PSC, 状态
 无源<br>元件 | passive element model<br>physical devices | cannot gen elec energy | eg. 阻容感
 有源<br>元件 | active element model<br>devices | can gen elec energy | eg. operational<br>amplifiers
-|
+| | |
  电荷 | Charge | Q |Coulumbs 库仑 
  电流 | Current | i | Ampere 安培 
 直流电 | direct current  | DC | A
